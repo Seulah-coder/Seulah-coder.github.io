@@ -215,7 +215,7 @@
 
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Sample presentation: 
+                            My presentation using Prezi: 
                             
                             <p><iframe src="https://prezi.com/embed/guoo72xlvrxn/" id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay; fullscreen" height="315" width="560"></iframe></p>
                         </li>
@@ -248,15 +248,33 @@
             <section class="resume-section" id="portfolio">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Portfolio</h2>
-                     <ul class="list-inline dev-icons">
-                                       
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li> 
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li> 
-                        <li class="list-inline-item"><i class="fab fa-java"></i></li> 
-                 
-                    </ul>
+                                
+                <div id="myBtnContainer">
+                    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                    <button class="btn" onclick="filterSelection('Java')"> Java</button>
+                    <button class="btn" onclick="filterSelection('Database')"> Database</button>
+                    <button class="btn" onclick="filterSelection('HTML&CSS')"> HTML</button>
+                    <!-- <button class="btn" onclick="filterSelection('CSS')"> CSS</button> -->
+                  </div>
+                
+
+                  <div class="container">
+                    <div class="filterDiv Java">
+                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ-uHtLMF6ImCmtbQjMW48pS1Tre_FuCmTzzCgFO4J9mXKbm6nOLi4VEfyPJGcmFj5f4aQXa-fdhqec/embed?start=false&loop=false&delayms=3000" frameborder="0" width="470" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </div>
+                    <div class="filterDiv Database">
+                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSx6tC-vSR2T52x3tKW8u7a2W8Eo07UUKB96nuh0qRDX83nn7iqWWfP5Ae5d-OtvJQdnu6Kw-naV8Hn/embed?start=false&loop=false&delayms=3000" frameborder="0" width="470" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </div>
+                    <div class="filterDiv HTML&CSS">
+                        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRq4YMKjdxZps5CR0uJpvQETMGR52CdPKgicDC1p3jMPxb7FqWWB3USiUlkkj_59GxY2jNsg-pXrrsu/embed?start=false&loop=false&delayms=3000" frameborder="0" width="470" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </div>
+                    <div class="filterDiv CSS">Red</div>
+                    <div class="filterDiv CSS">Melon</div>
+                    <div class="filterDiv CSS">Cow</div>
+
+                  </div>
                 </div>
-            </section>
+			</section>
             <hr class="m-0" />
             <!-- Awards-->
             <section class="resume-section" id="awards">
